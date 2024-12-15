@@ -50,7 +50,7 @@ Setting up ComfyUI with the Xformers, flash attention, Sage-attention(Optional R
 <!-- Installation -->
 ## 📦 Second part of the installation
 
-Activate youur comfy environment
+Activate your comfy environment
 ```
 (gen) PS D:\ComfyUI\custom_nodes\ComfyUI-IF_Trellis> micromamba activate gen
 ```
