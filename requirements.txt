@@ -23,6 +23,7 @@ kaolin==0.17.0
 spconv-cu120==2.3.6
 transformers==4.46.3
 gradio_litmodel3d==0.0.1
+sageattention==0.1.1
 git+https://github.com/Dao-AILab/flash-attention
 https://huggingface.co/spaces/JeffreyXiang/TRELLIS/resolve/main/wheels/diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl?download=true
 https://huggingface.co/spaces/JeffreyXiang/TRELLIS/resolve/main/wheels/nvdiffrast-0.3.3-cp310-cp310-linux_x86_64.whl?download=true
