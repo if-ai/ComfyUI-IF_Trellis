@@ -1,6 +1,9 @@
 from typing import *
 import importlib
 from trellis.backend_config import get_sparse_backend, get_attention_backend, get_debug_mode
+import logging
+
+logger = logging.getLogger(__name__)
 
 BACKEND = get_sparse_backend()
 DEBUG = get_debug_mode()
