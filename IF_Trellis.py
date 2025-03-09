@@ -243,7 +243,8 @@ class IF_TrellisImageTo3D:
         del mesh_output
         torch.cuda.empty_cache()
         
-        logger.info(f"Texture image shape: {texture_image.shape}")
+        if texture_image is not None:
+            logger.info(f"Texture image shape: {texture_image.shape}")
 
         return video_path, glb_path, texture_path, wireframe_path, texture_image, wireframe_image
 
